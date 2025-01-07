@@ -2,7 +2,7 @@
 I created a simple yet functional stopwatch using HTML, CSS, and JavaScript. This stopwatch features start, stop, and reset functionality, making it easy to track time efficiently. It's fully responsive and adapts seamlessly to any device, ensuring a smooth user experience across different screen sizes.
 
 ## Demo 📸
-
+Open the project click [here](https://naveenkumar-developer.github.io/StopWatch/)
 ![websiteTemplate](./Images/stopWatch.png)
 
 ## Features 🚀
