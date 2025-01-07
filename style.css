@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* STYLES FOR THE MOBILE  */
+
+.overall_container{
+    height: 100vh;
+    width: 100%;
+    background: url("./Images//background.jpg");
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.container{
+    width: 300px;
+    height: 200px;
+    padding: 20PX;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    row-gap: 20px;
+    background: rgba(245, 245, 245, 0.375);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.container .time_container{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    cursor: not-allowed;
+}
+
+.container .time_container *{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #212529;
+}
+
+.container .controller{
+    display: flex;
+    align-items: center;
+}
+
+.container .controller span{
+    padding: 10px 15px;
+    margin-inline: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+
+
+.container .controller span:nth-child(1):hover{
+    background: #ee9b00;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.container .controller span:nth-child(2):hover{
+    background: #4361ee;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+
+.container .controller span:nth-child(3):hover{
+    background: #ae2012;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+
+
+
+/* STYLES FOR THE TABLET  AND LARGE SCREENS */
+
+@media all and (min-width: 768px) {
+    
+.overall_container{
+    background-position: bottom right;
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+}
+
+
+.container .time_container *{
+    font-size: 4rem;
+}
+
+.container .controller span{
+    padding: 20px;
+}
+
+}
